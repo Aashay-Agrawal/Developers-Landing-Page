@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero_section {
+  background-image: url(developer.png);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text_container {
+  color: white;
+  margin: 0 auto;
+  max-width: 900px;
+  padding-top: 64px;
+  padding-left: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.lg_text{
+    font-size: 50px;
+    font-weight: 400px;
+}
+.black_box{
+  background-color: black;
+  padding: 20px;
+  color: aliceblue;
+  text-align: center;
+  font-weight: 400px;
+  font-size: 80px;
+}
+
+.work {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+margin: 20px;
+
+}
+.bottom{
+  display: flex;
+}
+.contact {
+  background-color: #515603;
+  min-height: 300px;
+  padding: 32px;
+  color: white;
+}
+
+.about {
+  background-color:#722300;
+  min-height: 300px;
+  padding: 32px;
+  color: white;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
